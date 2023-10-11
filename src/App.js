@@ -23,12 +23,14 @@ export default function App() {
   );
 }
 
+
+
 function NavigationBar() {
   return (
     <div className="bg-white flex justify-center items-center justify-between">
       <div>
         <img
-          src="/home_page/logo.png"
+          src="https://diduladishan.github.io/AV-project/home_page/logo.png"
           alt="logo"
           style={{
             width: "200px", // Set the desired width
@@ -37,7 +39,8 @@ function NavigationBar() {
         />
       </div>
       <div>
-        <p>Events Page </p>
+        <p>Events Pagee </p>
+      
       </div>
 
       <div className="flex justify-center items-center">
@@ -70,7 +73,7 @@ function HeroSectionOne() {
 
       <div>
         <img
-          src="/home_page/hero_section_01.png"
+          src="https://diduladishan.github.io/AV-project/home_page/hero_section_01.png"
           alt="logo"
           style={{
             width: "728px", // Set the desired width
@@ -87,7 +90,7 @@ function HeroSectionTwo() {
     <div className="flex justify-center items-center space-x-8">
       <div>
         <img
-          src="/home_page/hero_section_02.png"
+          src="https://diduladishan.github.io/AV-project/home_page/hero_section_02.png"
           alt="logo"
           style={{
             width: "728px", // Set the desired width
@@ -104,7 +107,7 @@ function HeroSectionTwo() {
         <div className="flex items-center mb-6 gap-2">
           <div>
             <img
-              src="/home_page/calender_icon.png"
+              src="https://diduladishan.github.io/AV-project/home_page/calender_icon.png"
               alt="logo"
               style={{
                 width: "31px", // Set the desired width
@@ -120,7 +123,7 @@ function HeroSectionTwo() {
         <div class="flex items-center gap-2 mb-6">
           <div>
             <img
-              src="/home_page/clock_icon.png"
+              src="https://diduladishan.github.io/AV-project/home_page/clock_icon.png"
               alt="logo"
               style={{
                 width: "31px", // Set the desired width
@@ -143,17 +146,17 @@ function RecentlyPostedComponent() {
   return(
 <div className="flex gap-6" >
 
-<RecentlyPosted icon="/home_page/posted-events-icon-01.png" expo="Expo" calender="/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
-recentlyPostedLocation="Phoenix, Arizona" dot="/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
+<RecentlyPosted icon="https://diduladishan.github.io/AV-project/home_page/posted-events-icon-01.png" expo="Expo" calender="https://diduladishan.github.io/AV-project/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
+recentlyPostedLocation="Phoenix, Arizona" dot="https://diduladishan.github.io/AV-project/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
 
-<RecentlyPosted icon="/home_page/posted-events-icon-02.png" expo="Expo" calender="/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
-recentlyPostedLocation="Phoenix, Arizona" dot="/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
+<RecentlyPosted icon="https://diduladishan.github.io/AV-project/home_page/posted-events-icon-02.png" expo="Expo" calender="https://diduladishan.github.io/AV-project/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
+recentlyPostedLocation="Phoenix, Arizona" dot="https://diduladishan.github.io/AV-project/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
 
-<RecentlyPosted icon="/home_page/posted-events-icon-03.png" expo="Expo" calender="/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
-recentlyPostedLocation="Phoenix, Arizona" dot="/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
+<RecentlyPosted icon="https://diduladishan.github.io/AV-project/home_page/posted-events-icon-03.png" expo="Expo" calender="https://diduladishan.github.io/AV-project/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
+recentlyPostedLocation="Phoenix, Arizona" dot="https://diduladishan.github.io/AV-project/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
 
-<RecentlyPosted icon="/home_page/posted-events-icon-03.png" expo="Expo" calender="/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
-recentlyPostedLocation="Phoenix, Arizona" dot="/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
+<RecentlyPosted icon="https://diduladishan.github.io/AV-project/home_page/posted-events-icon-03.png" expo="Expo" calender="https://diduladishan.github.io/AV-project/home_page/calender-icon-02.png" dateText="10-10-2023 to 10-15-2023" coporateConference="Corporate, Conference"
+recentlyPostedLocation="Phoenix, Arizona" dot="https://diduladishan.github.io/AV-project/home_page/dot.png" daysLeft = "3 days left" workType="Hybrid" price="$70,000 - $150,000" apply="Apply Now" />
 </div>
 
   );
@@ -188,7 +191,7 @@ function RecentlyPosted(props) {
 
           <div>
             <img
-              src="/home_page/bookmark-icon.png"
+              src="https://diduladishan.github.io/AV-project/home_page/bookmark-icon.png"
               alt="logo"
              
             />
@@ -240,7 +243,7 @@ function WantToGetMore() {
 
       <div> 
         <img
-          src="/home_page/want-to-get-more.png"
+          src="https://diduladishan.github.io/AV-project/home_page/want-to-get-more.png"
           alt="logo"
           style={{
             width: "500px", // Set the desired width
@@ -262,7 +265,7 @@ function Footer() {
 <div className="flex justify-between ">
       <div>
       <img
-          src="/home_page/logo.png"
+          src="https://diduladishan.github.io/AV-project/home_page/logo.png"
           alt="logo"
           style={{
             width: "200px", // Set the desired width
