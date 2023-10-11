@@ -1,0 +1,252 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  padding: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* .nav-bar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+/* .loging-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .login {
+  margin-right: 20px;
+} */
+
+/* .login-button {
+  background-color: #fff;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: 1px solid #c3b7b7;
+  cursor: pointer;
+} */
+
+/* .login-button:hover {
+  background-color: #c3b7b7;
+} */
+
+/* src/App.css or your custom CSS file */
+/* .poppins-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; 
+  font-size: 22px;
+  margin: 0;
+} */
+
+/* .connecting-event {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800; 
+  font-size: 60px;
+  margin: 0;
+} */
+
+/* .get-started-button {
+  background-color: rgba(24, 16, 89, 1);
+  display: inline;
+  color: #fff;
+  border-radius: 2px;
+  padding: 5px 10px;
+  text-align: center;
+} */
+
+/* .hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+} */
+
+/* .herosection_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+} */
+
+/* src/App.css or your custom CSS file */
+/* .want-to-get {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .hero-two-secondary-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; 
+  font-size: 20px;
+}
+
+.hero-section-two-section02 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.main-button {
+  background-color: rgba(24, 16, 89, 1);
+  display: inline;
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  border: none; 
+  box-shadow: none; 
+
+  cursor: pointer;
+
+  text-decoration: none;
+} */
+
+/*---------------------------------------------------------------------- Recently posted events section start here-------------------------------------------------------- */
+
+/* .recently-posted-events {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+} */
+
+/* .RecentlyPosted-Main {
+  background-color: rgba(243, 241, 251, 1);
+  padding: 25px 15px;
+  width: 325px;
+  border-radius: 20px;
+ 
+} */
+
+/* .RecentlyPosted-side {
+  display: flex;
+  gap: 20px;
+}
+
+.RecentlyPosted-date {
+  display: flex;
+  gap: 5px;
+}
+
+.expo {
+  font-family: "Inter", sans-serif;
+  font-weight: 700; 
+  font-size: 20px;
+  margin-bottom: 5px;
+} */
+
+/* .recently-posted-events-info1 {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 25px;
+} */
+
+/* .date-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; 
+  font-size: 14px;
+  margin-top: 2px;
+} */
+
+/* .coporate-conference {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+  font-size: 18px;
+  margin-bottom: 5px;
+} */
+
+/* .recently-posted-location {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; 
+  font-size: 15px;
+} */
+
+/* .price-posted {
+  background-color: #ddd8f6;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 10px;
+} */
+
+/* .recently-posted-price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+} */
+
+/* .recently-posted-apply {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #c9c0f3;
+  color: #181059;
+  text-align: center;
+  border: none; 
+  box-shadow: none; 
+  cursor: pointer;
+  text-decoration: none;
+} */
+
+
+/* .RecentlyPostedFlex{
+  display: flex;
+  gap: 20px;
+} */
+
+/* want to get more client section starts here */
+
+/* .want-to-get-more{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+  font-size: 45px;
+} */
+
+/* .browse-the-events{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; 
+  font-size: 22px;
+} */
+
+
+/* .want-to-get-more-all{
+  display: flex;
+  
+  align-items: center;
+  
+} */
