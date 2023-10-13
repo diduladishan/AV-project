@@ -1,7 +1,18 @@
 function Whypostyourevents() {
   return (
-    <div>
-      <div className="font-poppins font-semibold bg-[#B5F9C4] inline rounded-full px-4 py-1">
+    <div className="bg-[#957FEF]">
+      <div></div>
+      <div>
+        <img
+          src="/AV-project/home_page/why-post-your-events.png"
+          alt="logo"
+          style={{
+            width: "26px", // Set the desired width
+            // Set the desired height
+          }}
+        />
+      </div>
+      <div className="font-poppins font-semibold bg-[#B5F9C4] rounded-full px-4 py-1 mb-2 w-[190px]">
         For Event Planners
       </div>
 
@@ -16,25 +27,53 @@ function Whypostyourevents() {
         relationships.
       </div>
 
-      <div className="font-roboto font-normal text-[22px]">
-        <div>
-          <img
-            src="https://diduladishan.github.io/AV-project/home_page/done-icon.png"
-            alt="logo"
-            style={{
-              width: "200px", // Set the desired width
-              // Set the desired height
-            }}
-          />
+      <div className=" mb-6">
+        <div className="flex  gap-2">
+          <div>
+            <img
+              src="/AV-project/home_page/done-icon.png"
+              alt="logo"
+              style={{
+                width: "26px", // Set the desired width
+                // Set the desired height
+              }}
+            />
+          </div>
+          <div className="mb-4 font-roboto font-normal text-[22px]">
+            Always free for event managers to post events
+          </div>
         </div>
-        <div className="mb-4">
-          Always free for event managers to post events
+
+        <div className="flex  gap-2">
+          <div>
+            <img
+              src="/AV-project/home_page/done-icon.png"
+              alt="logo"
+              style={{
+                width: "26px", // Set the desired width
+                // Set the desired height
+              }}
+            />
+          </div>
+          <div className="mb-4 font-roboto font-normal text-[22px]">
+            Add up to two members for your organization for free
+          </div>
         </div>
-        <div className="mb-4">
-          Add up to two members for your organization for free
-        </div>
-        <div className="mb-4">
-          Chat with and check portfolios of av companies you want to work with
+
+        <div className="flex gap-2">
+          <div>
+            <img
+              src="/AV-project/home_page/done-icon.png"
+              alt="logo"
+              style={{
+                width: "26px", // Set the desired width
+                // Set the desired height
+              }}
+            />
+          </div>
+          <div className="mb-4 font-roboto font-normal text-[22px]">
+            Chat with and check portfolios of av companies you want to work with
+          </div>
         </div>
       </div>
 
