@@ -7,7 +7,7 @@ import "typeface-inter";
 import "typeface-poppins";
 
 import { Route } from "react-router-dom";
-import Header from "./1eventplanner/Whypostyourevents";
+import App2 from "./1eventplanner/App2";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
       <WantToGetMore />
       <Footer />
 
-      <Header />
+      <App2 />
     </div>
   );
 }
